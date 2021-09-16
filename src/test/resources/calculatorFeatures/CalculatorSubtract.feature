@@ -11,7 +11,7 @@ Feature: Calculator Subtract
       | 40 | 40 | 0 |
 
 
-  @TestCaseKey=WEB-T17
+  @TestCaseKey=NAR-T17
   Scenario Outline: Subtract other two numbers
     Given a calculator I just turned on
     Then I subtract <a> and <b> and the result is <c>
